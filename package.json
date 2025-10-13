@@ -10,16 +10,17 @@
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx"
   },
   "dependencies": {
+    "framer-motion": "^10.12.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-router-dom": "^6.14.0",
-    "framer-motion": "^10.12.0"
+    "react-router-dom": "^6.14.0"
   },
   "devDependencies": {
-    "vite": "^7.1.9",
-    "tailwindcss": "^4.1.14",
-    "postcss": "^8.4.30",
+    "@vitejs/plugin-react": "^5.0.4",
     "autoprefixer": "^10.4.14",
-    "eslint": "^8.47.0"
+    "eslint": "^8.47.0",
+    "postcss": "^8.4.30",
+    "tailwindcss": "^4.1.14",
+    "vite": "^7.1.9"
   }
 }
