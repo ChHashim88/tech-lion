@@ -67,7 +67,7 @@ export default function Contact() {
               <Mail className="text-blue-500" size={26} />
               <div>
                 <h4 className="font-semibold">Email</h4>
-                <p className="text-gray-400">contact@techlionstudio.com</p>
+                <p className="text-gray-400">techlion0001@gmail.com</p>
               </div>
             </motion.div>
 
