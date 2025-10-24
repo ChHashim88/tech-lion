@@ -144,6 +144,14 @@ export default function Home() {
       </motion.div>
     ))}
   </div>
+
+  {/* 👇 Add link here */}
+  <a
+    href="/showfeedback"
+    className="inline-block mt-10 text-blue-400 hover:text-blue-300 hover:underline transition-colors duration-300"
+  >
+    See what our clients say →
+  </a>
 </motion.section>
 
     </div>

@@ -16,6 +16,8 @@ import ECommerceFashion from "../pages/ECommerceFashion";
 import FinanceDashboard from "../pages/FinanceDashboard";
 import StartupLanding from "../pages/StartupLanding";
 import HostingDomain from "../pages/HostingDomain";
+import Feedback from "../pages/feedback";
+import ClientTestimonials from "../pages/FeedbackDisplay";
 
 const Router = () => {
   return (
@@ -30,6 +32,9 @@ const Router = () => {
       <Route path="/learnmore" element={<LearnMore />} />
       <Route path="/privacy" element={<PrivacyPolicy />} />
       <Route path="/terms" element={<TermsConditions />} />
+       <Route path="/feedback" element={<Feedback />} />
+       <Route path="/showfeedback" element={<ClientTestimonials />} />
+      
 
       {/* Project Detail Pages */}
       <Route path="/ecommerce-fashion" element={<ECommerceFashion />} />

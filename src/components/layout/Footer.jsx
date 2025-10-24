@@ -19,6 +19,12 @@ export default function Footer() {
 
         {/* Links */}
         <div className="flex gap-6 mt-4 md:mt-0">
+           <Link
+            to="/feedback"
+            className="text-sm text-white hover:text-blue-400 transition-colors duration-300"
+          >
+            Feed Back
+          </Link>
           <Link
             to="/privacy"
             className="text-sm text-white hover:text-blue-400 transition-colors duration-300"
@@ -31,6 +37,7 @@ export default function Footer() {
           >
             Terms
           </Link>
+  
         </div>
       </div>
     </motion.footer>
