@@ -18,6 +18,7 @@ import StartupLanding from "../pages/StartupLanding";
 import HostingDomain from "../pages/HostingDomain";
 import Feedback from "../pages/feedback";
 import ClientTestimonials from "../pages/FeedbackDisplay";
+import PricingPage from "../pages/PricingPage";
 
 const Router = () => {
   return (
@@ -34,6 +35,7 @@ const Router = () => {
       <Route path="/terms" element={<TermsConditions />} />
        <Route path="/feedback" element={<Feedback />} />
        <Route path="/showfeedback" element={<ClientTestimonials />} />
+       <Route path="/pricingpage" element={<PricingPage />} />
       
 
       {/* Project Detail Pages */}

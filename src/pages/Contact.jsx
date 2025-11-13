@@ -78,7 +78,7 @@ export default function Contact() {
               <Phone className="text-blue-500" size={26} />
               <div>
                 <h4 className="font-semibold">Phone</h4>
-                <p className="text-gray-400">+1 (424) 555-0193</p>
+                <p className="text-gray-400">+92 308 6886361</p>
               </div>
             </motion.div>
 
@@ -89,7 +89,7 @@ export default function Contact() {
               <MapPin className="text-blue-500" size={26} />
               <div>
                 <h4 className="font-semibold">Location</h4>
-                <p className="text-gray-400">Los Angeles, California, USA</p>
+                <p className="text-gray-400">Pakistan, USA</p>
               </div>
             </motion.div>
           </div>
