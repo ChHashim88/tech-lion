@@ -36,10 +36,11 @@ const packages = [
       "API Integration",
     ],
   },
+  
   {
-    name: "E-Commerce / Shopify",
-    priceUSD: 400,
-    pricePKR: 112300,
+    name: "Shopify",
+    priceUSD: 89,
+    pricePKR:25000 ,
     features: [
       "Store Setup",
       "Payment Integration",
